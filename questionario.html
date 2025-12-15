@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/questionario.css">
+  <title>Questionario</title>
+</head>
+
+<body>
+  <div class="container-questionario">
+    <h2>Responda as perguntas abaixo</h2>
+
+    <form id="formQuiz">
+
+      <div class="question">
+        <p>1. Sinto que minha carga de trabalho está alta.</p>
+        <select name="q1" id="q1" aria-label="Pergunta 1: carga de trabalho">
+          <option value="0">Discordo totalmente</option>
+          <option value="1">Discordo</option>
+          <option value="2">Neutro</option>
+          <option value="3">Concordo</option>
+          <option value="4">Concordo totalmente</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <p>2. Tenho me sentido estressado no ambiente de trabalho.</p>
+        <select name="q2" id="q2" aria-label="Pergunta 2: estresse no trabalho">
+          <option value="0">Discordo totalmente</option>
+          <option value="1">Discordo</option>
+          <option value="2">Neutro</option>
+          <option value="3">Concordo</option>
+          <option value="4">Concordo totalmente</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <p>3. Sinto apoio da liderança e colegas.</p>
+        <select name="q3" id="q3" aria-label="Pergunta 3: apoio da liderança e colegas">
+          <option value="4">Discordo totalmente</option>
+          <option value="3">Discordo</option>
+          <option value="2">Neutro</option>
+          <option value="1">Concordo</option>
+          <option value="0">Concordo totalmente</option>
+        </select>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </div>
+
+  <script src="./sciripts/script.js"></script>
+</body>
+
+</html>
