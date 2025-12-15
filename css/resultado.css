@@ -12,11 +12,11 @@ body {
 .container-resultado {
   display: block;
   justify-items: center;
-  min-width: 360px;
+  min-width: 330px;
   width: 90%;
   max-width: 900px;
   margin: 40px auto;
-  height: 500px;
+  height: 600px;
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -45,3 +45,12 @@ body {
   color: blue;
 }
 
+@media (max-width: 365px) {
+  .container-resultado {
+    max-width: 340px;
+  }
+}
+
+#score p {
+  text-align: center;
+}
