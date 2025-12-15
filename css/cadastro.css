@@ -80,14 +80,7 @@ button:hover{
   opacity: 1;
 }
 
-
-@media(max-width: 359px) {
-  .input h2 {
-    font-size: 1.8rem;
-  }
-}
-
-a, p {
+.input a, p {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
@@ -96,9 +89,28 @@ a, p {
   font-weight: 300;
 }
 
-a p:hover {
+.input a p:hover {
   font-weight: bold;
 }
+
+
+@media(max-width: 375px) {
+  .input h2 {
+    font-size: 1.5rem;
+  }
+   button {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+  .input a, p {
+    font-size: 0.9rem;
+  }
+   #cadUser,
+  #cadPass {
+  height: 45px;
+  }
+}
+
 
 
 
