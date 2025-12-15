@@ -75,6 +75,7 @@ button {
   background-color: #234C6A;
   opacity: 0.8;
   cursor: pointer;
+  width: 148px;
 }
 
 button:hover{
