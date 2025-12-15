@@ -109,6 +109,9 @@ button:hover{
   #cadPass {
   height: 45px;
   }
+  input::placeholder {
+    font-size: 1rem;
+  }
 }
 
 

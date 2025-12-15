@@ -123,5 +123,8 @@ p {
   #loginPass {
   height: 45px;
   }
+  input::placeholder {
+    font-size: 1rem;
+  }
 }
 
