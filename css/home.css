@@ -8,6 +8,27 @@ body {
   font-family: Arial, sans-serif;
   background: #f0f2f5;
 }
+/* 
+#container-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 0.5px solid #E3E3E3;
+  align-items: center;
+  margin: 0 150px;
+  padding: 5px;
+}
+
+.container-menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+li{
+  font-size: 1.2rem;
+  padding: 5px 10px ;
+} */
 
 .container-index {
   width: 90%;
@@ -53,6 +74,9 @@ body {
 button:hover {
   opacity: 1;
 }
-/* button {
 
-} */
+@media (max-width: 375px) {
+  .container-menu ul {
+    display: none;
+  }
+}
