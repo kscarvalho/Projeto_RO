@@ -78,7 +78,7 @@ button:hover {
     text-align: center;
   }
   .container-questionario {
-    height: 650px;
+    height: 100%;
   }
   #q1, #q2, #q3 {
     padding: 10px;

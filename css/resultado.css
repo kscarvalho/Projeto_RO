@@ -16,7 +16,7 @@ body {
   width: 90%;
   max-width: 700px;
   margin: 40px auto;
-  height: 700px;
+  height: 550px;
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -30,7 +30,7 @@ body {
 
 .container-resultado p {
   justify-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.4rem;
 }
 
 .container-resultado a {
@@ -39,7 +39,7 @@ body {
 
 .container-resultado a p {
   justify-self: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 50px;
   color: blue;
