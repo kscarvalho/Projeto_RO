@@ -16,7 +16,7 @@ body {
   width: 90%;
   max-width: 700px;
   margin: 40px auto;
-  height: 550px;
+  height: 600px;
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -24,7 +24,7 @@ body {
 }
 
 .container-resultado h2, h3{
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
