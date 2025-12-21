@@ -13,7 +13,7 @@ function login() {
   const dadosSalvos = localStorage.getItem('auth');
 
   if (!dadosSalvos) {
-    document.getElementById('msg').innerText = 'Nenhum usuário cadastrado!';
+    document.querySelector('.alert').innerText = 'Nenhum usuário cadastrado!';
     return;
   }
 
