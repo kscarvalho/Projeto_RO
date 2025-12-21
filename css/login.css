@@ -63,7 +63,6 @@ input::placeholder {
 
 button {
   font-size: 1rem;
-  margin: 0 auto;
   padding: 15px 25px;
   font-weight: bold;
   text-transform: uppercase;
@@ -74,18 +73,17 @@ button {
   background-color: #234C6A;
   opacity: 0.8;
   cursor: pointer;
-  width: 148px;
   box-shadow: 3px 3px 5px 0 #0056b3; 
-  transition: all 0.1s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
 }
 
-button:hover{
+.active{
   opacity: 1;
   transform: translateY(3px);
   box-shadow: 0 2px 0 #0056b3;
 }
 
-button:active {
+.active {
   transform: translateY(5px);
   box-shadow: 0 0px 0 #0056b3;
 }
@@ -105,7 +103,7 @@ p {
 .input a, p {
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 10px;
+  margin: 10px auto;
   text-decoration: none;
   color: #001BB7;
   font-weight: 300;
@@ -113,6 +111,11 @@ p {
 
 .input a p:hover {
   font-weight: bold;
+}
+
+.alert {
+  color: #E71414;
+  font-size: 16px;
 }
 
 

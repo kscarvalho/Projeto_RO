@@ -1,3 +1,5 @@
+const usuarioCadastrado = document.querySelector('.alert');
+
 // FUNÇÃO SIMPLES DE "CRIPTOGRAFIA" (apenas didática)
 function criptografar(texto) {
   return btoa(texto); // base64 (NÃO é segura para produção)
@@ -24,5 +26,21 @@ function cadastrar() {
   }
 
   salvarUsuario(user, pass);
-  alert('Usuário cadastrado com sucesso!');
+  usuarioCadastrado.innerHTML = 'Usuário cadastrado com sucesso!';
+  // alert('Usuário cadastrado com sucesso!');
+
+  function cleanInput() {
+    //CRIADO PARA LIMPAR O INPUT
+    cadUser.value = '';
+    cadPass.value = '';
+  }
+  cleanInput();
 }
+
+const button = document.querySelector('button');
+
+function hoverButton() {
+  button.classList.add('active');
+}
+
+button.addEventListener('click', hoverButton);
