@@ -2,13 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: url("../imgs/img_background_body.jpg")
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: #f0f2f5;
+  background-position: center;
 }
-/* 
+
+/* nav bar superior */
 #container-nav {
   display: flex;
   justify-content: space-between;
@@ -25,20 +36,104 @@ body {
   gap: 50px;
 }
 
+@media(max-width: 1081px) {
+  .container-menu ul {
+    display: none;
+  }
+  #container-nav div a{
+    color: red;
+  }
+}
+
 li{
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px 10px ;
-} */
+}
 
 .container-index {
   width: 90%;
   max-width: 900px;
   margin: 40px auto;
   height: 500px;
-  background: white;
+  background: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+@media(max-width: 1014px) {
+  .container-index {
+    width: 80%;
+  }
+}
+
+@media(max-width: 590px) {
+  .container-index {
+    width: 70%;
+  }
+}
+
+#sectionAvaliacao {
+  display: none;
+}
+
+#sectionAvaliacao.active {
+  display: flex;
+}
+
+/* nav bar lateral */
+.sidebar {
+  /* display: none; */
+  position: absolute;
+  width: 50px;
+  height: 500px;
+  margin-top: 40px;
+  background-color: #fff;
+  transition: 0.8s;
+  overflow: hidden; /* esconde elementos que passa o container*/
+  z-index: 2;
+}
+
+.sidebar:hover {
+  width: 300px;
+}
+
+.sidebar ul li a {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul li .icone {
+  min-width: 60px;
+  justify-content: center;
+  align-items: center;
+  color: #3f3f3f;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar ul li .titulo {
+  color: #3f3f3f;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+}
+
+.top-bar {
+  margin-top: 20px;
+}
+
+.footer-bar {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .container-index h1 {
@@ -78,5 +173,17 @@ button:hover {
 @media (max-width: 375px) {
   .container-menu ul {
     display: none;
+  }
+  .sidebar {
+    display: flex;
+  }
+  .container-index h1 {
+    font-size: 1.5rem;
+  }
+  .container-index p{
+    font-size: 0.8rem;
+  }
+  .icontainer-index {
+    margin: 30px auto;
   }
 }

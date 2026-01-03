@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="./css/home.css">
+  <link href="dist/hamburgers.css" rel="stylesheet">
   <title>home</title>
 </head>
 
@@ -21,14 +23,54 @@
       </ul>
     </div>
   </nav> -->
-  <div class="container-index">
-    <h1>Avaliação de Saúde Mental Organizacional</h1>
-    <p>Este questionário avalia indicadores de estresse, bem-estar e clima organizacional.</p>
-    <button onclick="startTest()">Iniciar Avaliação</button>
+  <div class="sidebar">
+    <ul>
+      <li>
+        <a title="Menu" class="top-bar" aria-label="Abrir menu">
+          <span class="icone" aria-hidden="true"> <img src="./icons/newspaper-outline.svg" alt="Avaliações"></span>
+          <span id="titulo" class="titulo">Avaliações</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="Menu" aria-label="Abrir menu">
+          <span class="icone" aria-hidden="true"><img src="./icons/dice-outline.svg" alt="Testes"></span>
+          <span class="titulo">Testes</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="Menu" aria-label="Abrir menu">
+          <span class="icone" aria-hidden="true"><img src="./icons/map-outline.svg" alt="Mapeamento"></span>
+          <span class="titulo">Mapeamento</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="Menu" aria-label="Abrir menu">
+          <span class="icone" aria-hidden="true"><img src="./icons/trail-sign-outline.svg" alt="Diagnóstico"></span>
+          <span class="titulo">Diagnóstico</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="Plano de Ação" aria-label="Abrir menu">
+          <span class="icone" aria-hidden="true"><img src="./icons/documents-outline.svg" alt=""></span>
+          <span class="titulo">Plano de Ação</span>
+        </a>
+      </li>
+      <li>
+        <a href="login.html" title="Sair" class="footer-bar" aria-label="Abrir menu">
+          <span class="icone" aria-hidden="true"><img src="./icons/exit-outline.svg" alt="Sair" /></span>
+          <span class="titulo">Sair</span>
+        </a>
+      </li>
+    </ul>
   </div>
-
+  <section id="sectionAvaliacao">
+    <div class="container-index">
+      <h1>Avaliação de Saúde Mental Organizacional</h1>
+      <p>Este questionário avalia indicadores de estresse, bem-estar e clima organizacional.</p>
+      <button onclick="startTest()">Iniciar Avaliação</button>
+    </div>
+  </section>
   <script src="./sciripts/script.js"></script>
-  <!-- <h1>ola</h1> -->
 </body>
 
 </html>

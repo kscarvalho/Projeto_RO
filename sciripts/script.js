@@ -65,3 +65,12 @@ document.addEventListener('DOMContentLoaded', () => {
     rec.innerHTML = recommendations;
   }
 });
+
+const avaliacao = document.getElementById('sectionAvaliacao');
+const tituloAvaliacao = document.getElementById('titulo');
+
+function exibirAvaliacao() {
+  avaliacao.classList.add('active');
+}
+
+tituloAvaliacao.addEventListener('click', exibirAvaliacao);
