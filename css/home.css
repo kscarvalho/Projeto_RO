@@ -17,6 +17,7 @@ html, body {
 
 body {
   background-position: center;
+  min-width: 350px;
 }
 
 /* nav bar superior */
@@ -183,7 +184,8 @@ button:hover {
   .container-index p{
     font-size: 0.8rem;
   }
-  .icontainer-index {
-    margin: 30px auto;
+  .container-index {
+    margin-right: 10px;
+    width: 80%;
   }
 }

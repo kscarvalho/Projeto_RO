@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const avaliacao = document.getElementById('sectionAvaliacao');
-const tituloAvaliacao = document.getElementById('titulo');
+const tituloAvaliacao = document.getElementById('avaliacao');
 
 function exibirAvaliacao() {
   avaliacao.classList.add('active');
