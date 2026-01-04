@@ -90,7 +90,7 @@ li{
   width: 50px;
   height: 500px;
   margin-top: 40px;
-  background: rgba(255, 255, 255, 0.2);
+  background-color: #ffff;
   transition: 0.8s;
   overflow: hidden; /* esconde elementos que passa o container*/
   z-index: 2;
@@ -100,7 +100,7 @@ li{
   width: 300px;
 }
 
-.sidebar ul li a {
+.sidebar ul li {
   display: flex;
   white-space: nowrap;
   align-items: center;
@@ -111,12 +111,12 @@ li{
   min-width: 60px;
   justify-content: center;
   align-items: center;
-  color: #3f3f3f;
 }
 
 img{
   width: 30px;
   height: 30px;
+  color: #fff;
 }
 
 .sidebar ul li .titulo {
@@ -133,7 +133,7 @@ img{
 }
 
 .footer-bar {
-  margin-top: 50px;
+  margin-top: 120px;
   margin-bottom: 10px;
 }
 

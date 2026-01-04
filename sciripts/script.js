@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+//ACESSA A AVALIAÇÃO
 const avaliacao = document.getElementById('sectionAvaliacao');
 const tituloAvaliacao = document.getElementById('avaliacao');
 
