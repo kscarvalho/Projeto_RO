@@ -47,7 +47,8 @@ body {
 
 li{
   font-size: 1rem;
-  padding: 5px 10px ;
+  height: 45px;
+  margin: 0 10px;
 }
 
 .container-index {
@@ -86,12 +87,13 @@ li{
 .sidebar {
   /* display: none; */
   position: absolute;
-  width: 300px;
+  width: 50px;
   height: 500px;
   margin-top: 40px;
   background-color: #ffff;
   transition: 0.8s;
   overflow: hidden; /* esconde elementos que passa o container*/
+  border-radius: 0px 10px 10px 0px;
   z-index: 2;
 }
 
@@ -103,12 +105,14 @@ li{
   display: flex;
   white-space: nowrap;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 
-span {
-  padding: 10px;
+.sidebar ul li:hover {
+    background-color: #e9e9e9;
 }
+
 
 .sidebar ul li .icone {
   min-width: 60px;
@@ -127,6 +131,7 @@ img{
   font-family: Arial, sans-serif;
   font-weight: bold;
   cursor: pointer;
+  padding: 10px;
 }
 
 .top-bar {
@@ -134,7 +139,7 @@ img{
 }
 
 .footer-bar {
-  margin-top: 40px;
+  margin-top: 90px;
   margin-bottom: 10px;
 }
 
