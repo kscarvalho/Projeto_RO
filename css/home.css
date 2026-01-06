@@ -11,7 +11,6 @@ html, body {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
   background: url("../imgs/img_background_body.jpg")
 }
 
@@ -116,7 +115,6 @@ li{
 img{
   width: 30px;
   height: 30px;
-  color: #fff;
 }
 
 .sidebar ul li .titulo {
@@ -190,4 +188,10 @@ button:hover {
   .sidebar:hover {
   width: 220px;
 }
+}
+
+@media(max-width: 668px) {
+  html {
+    overflow: auto;
+  }
 }
