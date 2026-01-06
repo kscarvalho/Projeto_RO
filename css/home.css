@@ -103,7 +103,7 @@ li{
   display: flex;
   white-space: nowrap;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 span {
@@ -134,7 +134,7 @@ img{
 }
 
 .footer-bar {
-  margin-top: 120px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
