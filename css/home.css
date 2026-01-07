@@ -215,3 +215,7 @@ button:hover {
   background-color: antiquewhite;
   border-radius: 50%;
 }
+
+#icon-menu {
+  fill: blue;
+}
