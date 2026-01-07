@@ -46,7 +46,7 @@ body {
 }
 
 li{
-  font-size: 1rem;
+  font-size: 0.9rem;
   height: 45px;
   margin: 0 10px;
   display: flex;
@@ -106,15 +106,18 @@ li{
   width: 300px;
 }
 
-.sidebar ul li .icone {
-  min-width: 60px;
+.icone {
   justify-content: center;
   align-items: center;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  height: 30px;
 }
 
 img{
   width: 30px;
   height: 30px;
+  padding: 5px;
 }
 
 .sidebar ul li .titulo {
@@ -201,11 +204,14 @@ button:hover {
   }
 }
 
-/* AMBURGUER */
+/* HAMBURGUER */
 
 .meu-icone{
   fill: red;
   width: 30px;
   height: 30px;
+  padding: 5px;
   cursor: pointer;
+  background-color: antiquewhite;
+  border-radius: 50%;
 }
