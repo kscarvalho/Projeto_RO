@@ -194,9 +194,6 @@ button:hover {
     margin-right: 10px;
     width: 80%;
   }
-  .sidebar:hover {
-  width: 220px;
-}
 }
 
 @media(max-width: 668px) {
