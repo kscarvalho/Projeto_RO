@@ -75,3 +75,38 @@ function exibirAvaliacao() {
 }
 
 tituloAvaliacao.addEventListener('click', exibirAvaliacao);
+
+// HAMBURGUER
+const menuSidebar = document.querySelector('.sidebar');
+const iconeMenu = document.getElementById('icon-menu');
+const iconeX = document.getElementById('icon-x');
+iconeMenu.style.display = 'block';
+iconeX.style.display = 'none';
+
+function sumirMenu() {
+  if (iconeMenu.style.display == 'block') {
+    `${(iconeMenu.style.display = 'none')}` &&
+      `${(iconeX.style.display = 'block')}`;
+  }
+}
+
+function sumirX() {
+  if (iconeX.style.display == 'block') {
+    `${(iconeX.style.display = 'none')}` &&
+      `${(iconeMenu.style.display = 'block')}`;
+  }
+}
+
+iconeMenu.addEventListener('click', sumirMenu);
+iconeX.addEventListener('click', sumirX);
+
+function abrirSidebar() {
+  menuSidebar.classList.add('ativo');
+}
+
+function fecharSidebar() {
+  menuSidebar.classList.remove('ativo');
+}
+
+iconeMenu.addEventListener('click', abrirSidebar);
+iconeX.addEventListener('click', fecharSidebar);
