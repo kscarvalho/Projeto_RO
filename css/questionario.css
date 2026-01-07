@@ -31,17 +31,21 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  padding: 5px;
 }
 
 .question p {
   color: #000;
   font-size: 1.2rem;
   margin-top: 15px;
+  padding: 5px;
 }
 
 #q1, #q2, #q3 {
   font-size: 1rem;
   padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .container-questionario button {
