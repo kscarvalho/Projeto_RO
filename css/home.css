@@ -109,7 +109,7 @@ li{
 .icone {
   justify-content: center;
   align-items: center;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   border-radius: 50%;
   height: 30px;
 }
@@ -213,8 +213,11 @@ button:hover {
   height: 30px;
   padding: 5px;
   cursor: pointer;
-  background-color: antiquewhite;
   border-radius: 50%;
+}
+
+.meu-icone:hover {
+  background-color: antiquewhite;
 }
 
 #icon-menu {
